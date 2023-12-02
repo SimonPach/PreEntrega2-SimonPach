@@ -1,0 +1,167 @@
+/* estilos generales */
+h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 5em;
+    box-shadow: 0 2px 50px rgb(150, 131, 49);
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    text-decoration: underline;
+    margin: 150px 0 60px 0;    
+}
+
+h6, p {
+    color: white;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+
+/* nav */
+a:hover {   
+   background-color: rgba(255, 251, 244, 0.904);
+}
+
+#nav_disabled {
+    color: white;
+}
+
+/* grid */
+
+.imagenes {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* footer */
+.container{
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+footer p{
+    margin: 0;
+}
+
+h6{
+    margin: 0;
+}
+.dir{
+    margin: 0;
+}
+
+
+footer{
+    margin-top: 50px;
+    padding-top: 10px;
+    
+}
+
+/* fin footer */
+
+/* PAG TALLE */
+
+/* tabla */
+
+table, tr, th, td {
+    border: 2px solid rgb(41, 52, 199)
+    
+}
+
+.tabla {
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+td, th, tr {
+    color: #fff;
+}
+
+.talle { 
+    color: white;
+}
+
+
+/* PAG  VENDEDORES */
+
+.card-body h5, p {
+    text-align: center;
+}
+
+.text_parrafo {
+    margin: 80px;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.card-text {
+    color: black;
+}
+
+.card-body a {
+    display: block;
+}
+
+.contenedores {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ /* PAG DEVOLUSIONES */
+
+.envio { 
+    background-color: #000000;
+}
+
+.texto_devolucion {
+    color: white;
+}
+
+form {
+    color: white;
+}
+
+.formulario { 
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    /* background-color: rgb(31, 74, 109); */
+    width: 80%;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.controles {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+
+form input {
+    border: 2px solid #000000;
+}
+
+#textarea {
+    resize: horizontal;
+    border: 2px solid #000000;
+    width: 100%;
+}
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devoluciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- INICIO NAV -->
+     <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="talles.html">Talles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactanos.html">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#name">Devoluciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a id="nav_disabled" class="nav-link disabled" aria-disabled="true">Cadena Tienda Tia Paola</a>
+        </li>       
+      </ul>
+      <!-- FIN NAV -->
+      <!-- INICIO FORMULARIO -->
+      <h1>Devoluciones</h1>
+      <ul class="texto_devolucion">
+        <li>Podés solicitar el cambio por correo abonando el costo correspondiente.</li>
+        <li>Una vez realizada la solicitud desde tu Perfil, te enviaremos en el plazo de los siguientes 7 días una etiqueta que tendrás que agregar al paquete para poder despacharlo.</li>
+        <li>Tenés tiempo hasta 30 días posteriores a la recepción de tu pedido.</li>
+        <li>Cuando lo recibamos y atraviese el proceso de control de calidad, te enviaremos una Giftcard, o la devolución del importe abonado según corresponda.</li>
+        <li>El correo puede negarse a retirar el paquete si considera que no está correctamente envuelto y sellado. Se sugiere cerrar el paquete en un envoltorio plástico y revestirlo con cinta adhesiva.</li>
+      </ul>
+      <form class="formulario" name="formulario" method="post" action="/send/">
+        <fieldset>
+            <legend>Datos Personales</legend>
+                <label class="controles " for="name">Nombre</label>
+                <input class="controles " type="text" name="name" id="name" placeholder="Juanita" required>
+                <label class="controles " for="apellido">Apellido</label>
+                <input class="controles " type="text" name="apellido" id="apellido" placeholder="Lahuerfanita" required>
+                <label class="controles " for="email">Email</label>
+                <input class="controles " type="email" name="email" id="email" placeholder="juan@gmail.com" required>
+                <label class="controles " for="tel">Telefono</label>
+                <input class="controles " type="tel" name="tel" id="tel" required>
+                <label class="controles " for="image">Foto de la prenda a devolver</label>
+                <input class="controles " type="file" name="image" id="image" required>
+                <label class="controles " for="textarea">Descripcion</label>
+                <textarea  name="textarea" id="textarea"></textarea>
+                
+        </fieldset>
+        <button>Enviar</button>
+      </form>
+
+
+      <!-- INICIO FOOTER -->
+      
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h6>Direccion</h6>
+            <p class="dir">Av. 1 de Mayo 255</p>
+            <p class="dir">C15045 CABA</p>
+          </div>
+    
+          <div class="col en_las_redes">
+            <h6>En las redes</h6> 
+            <a href="https://facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://ar.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.google.com.ar/" target="_blank"><i class="bi bi-browser-chrome"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <footer><p>Copyright &copy; Tu sitio web 2023</p></footer>
+
+      <!-- FIN FOOTER -->
+        
+      <!-- LINK SCRIPT -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
